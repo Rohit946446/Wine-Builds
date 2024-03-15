@@ -34,6 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          sudo su
           sudo apt update && apt upgrade
           sudo apt install meson -y
           sudo apt get install neofetch -y
